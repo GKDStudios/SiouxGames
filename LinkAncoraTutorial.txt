@@ -1,0 +1,22 @@
+﻿<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>
+jQuery(document).ready(function($) {
+   	$(".scroll").click(function(event){
+		event.preventDefault();
+  		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
+ 	});
+ });
+</script>
+ 
+ 
+ Colocar antes do fechamento da tag head
+ 
+ Na segunda linha do código jquery $(".scroll") esse .scroll é o nome da classe, cria uma class="scroll" em todas as tags <a></a> que deseja fazer o link / <a class="scroll"> LINK </a>
+ 
+ Só funciona se for navegação onePage
+ 
+ Na quarta linha do código jquery, o número 1000 no final corresponde ao tempo de ação em milissegundos, para cada 1000 equivale a 1 segundo.
+ 
+ Obrigado é nois
+----------------=-----------------=-------------------
+https://www.youtube.com/watch?v=gHXqKvG0AEw
